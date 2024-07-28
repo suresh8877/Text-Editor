@@ -1,0 +1,218 @@
+body{
+    margin: 0px;
+    background-color: lavenderblush;
+}
+
+.head1{
+    background-color: aqua;
+    width: auto;
+    height: 75px;
+    margin: auto;
+}
+
+.navtitle{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    font-family: cursive;
+    color: brown;
+}
+
+.navbar{
+    background-color: rgb(56, 74, 236);
+    width: auto;
+    height: 50px;
+    margin: auto;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+#navitem{
+    padding-top: 12px;
+    text-align: center;
+}
+#nitem{
+    width: 70px;
+    height: 30px;
+    font-size: 25px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-left: 40px;
+    border: 2px;
+    text-decoration: none;
+}
+#nitem:hover{
+    width: 70px;
+    height: 30px;
+    font-size: 25px;
+    padding: 7px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-left: 40px;
+    border: 2px;
+}
+#firstri{
+    padding-top: 14px;
+    margin: auto;
+    font-size: 21px;
+    display: flex;
+    color: #ef190e
+}
+#label1{
+    height: 20px;
+}
+#option-items{
+    height: 24px;
+    font-size: 16px;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.btntext{
+    display: flex;
+    margin: 20px;
+}
+.btns{
+    margin-right: 15px;
+    border: solid darkblue;
+    border-width: 4px;
+    border-radius: 77px;
+    background-color: #85efe947;
+    padding: 15px;
+    padding-right: 15px;
+    margin-right: 35px;
+    padding-top: 21px;
+}
+
+.btnseries{
+    width: 450px;
+    padding-top: 25px;
+    text-align: center;
+    display: flex;
+}
+
+.btnseries1{
+    width: 450px;
+    padding-bottom: 12px;
+    text-align: center;
+    display: block;
+}
+#btnseriesbtn{
+    width: 60px;
+    margin: 15px;
+    height: 40px;
+    border: solid blueviolet;
+    border-radius: 7px;
+    background-color: #85efea;
+}
+
+#btnseriesbtn4{
+    margin-left: auto;
+    width: 121px;
+    margin-right: auto;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: khaki;
+}
+#btnseriesbtn4:hover{
+    transition: 0.2s;
+    font-weight: bold;
+    background-color: white;
+}
+
+.taread{
+    position: relative;
+    margin-top: 14px;
+}
+
+#tarea{
+    width: 768px;
+    height: 450px;
+    font-style:none;
+    font-family:'Times New Roman', Times, serif;
+    color:none;
+    font-weight: 100;
+    text-align: none;
+    text-decoration-line:none;
+    text-underline-position:below;
+    font-size: 20px;
+    resize: none;
+    border: solid rebeccapurple;
+    border-radius: 7px;
+    background-color: #045dff2e;
+}
+
+:root{
+    --loc1:0px;
+    --loc2:0px;
+    --loc3:0px;
+    --loc4:0px;
+}
+#tbtn2{
+    height: 40px;
+    width: 80px;
+    background-color: aquamarine;
+    border-radius: 40px;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+#tbtn1{
+    height: 40px;
+    width: 80px;
+    background-color: aquamarine;
+    border-radius: 40px;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+#tbtn3{
+    height: 40px;
+    width: 80px;
+    background-color: aquamarine;
+    border-radius: 40px;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+#tbtn4{
+    height: 40px;
+    width: 80px;
+    background-color: aquamarine;
+    border-radius: 40px;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.mover{
+    transition: 0.5s;
+    height: 39px;
+    width: 40px;
+    background-color:blue;
+    border-radius: 40px;
+    text-align: center;
+}
+#mover1{
+    margin-left: var(--loc1);
+}
+#mover2{
+    margin-left: var(--loc2);
+}
+#mover3{
+    margin-left: var(--loc3);
+    text-decoration-line: underline;
+}
+#mover4{
+    margin-left: var(--loc4);
+    text-decoration-line: line-through;
+}
+
+
+/* <!-- Author-Suresh Kumavat -->
+<!-- CodeClause Intern ID- CC35789 -->
+<!-- Designation- Web Development Intern -->
+<!-- Batch- Jul 2023 --> */
